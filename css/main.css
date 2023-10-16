@@ -1,0 +1,29 @@
+@font-face {
+  font-family: iran;
+  src: url(../font/Iranianttf);
+}
+* {
+  direction: rtl;
+  font-family: iran;
+  box-sizing: border-box;
+  font-size: 0.93em;
+  margin: 0px 0px;
+  padding: 0;
+}
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 16px;
+  margin: 0px;
+  overflow-x: hidden;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
