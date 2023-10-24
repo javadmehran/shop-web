@@ -64,6 +64,7 @@ function menuBar() {
     myNav.classList.remove('show')
    
   }
+  
   const t1 = window.innerHeight * 0.1
   const Box2 = slid.getBoundingClientRect().top
   if (t  > Box2) {
@@ -71,11 +72,10 @@ function menuBar() {
     sideNav3.classList.add('removeMenu')
   } else {
   
-    sideNav3.classList.remove('removeMenu')
+   sideNav3.classList.remove('removeMenu')
   }
 
 }
-
 
 // ----------navbar-nav-center-ul-li-a------------
 
@@ -265,8 +265,6 @@ function showCase(){
         const secTop=section.getBoundingClientRect().top
         if(trigger>secTop) {
             section.classList.add("hidden2")
-        }else{
-            section.classList.remove('hidden2')
         }
      })
 }

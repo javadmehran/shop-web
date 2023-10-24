@@ -634,8 +634,11 @@ line-height:40px ;
   justify-content: center;
   border-radius:5% 10% 0 0;
   opacity: 0;
-  transition: all .5s ease-in-out;
-
+  transition: all .5s ;
+  -webkit-transition: all .5s ;
+  -moz-transition: all .5s ;
+  -ms-transition: all .5s ;
+  -o-transition: all .5s ;
 }
 .icon-top .to-top.active{
   opacity: 1;
@@ -695,6 +698,10 @@ line-height:40px ;
   transition: 2s all ;
   opacity: 1 ;
   visibility: visible  ;
+  -webkit-transition: 2s all ;
+  -moz-transition: 2s all ;
+  -ms-transition: 2s all ;
+  -o-transition: 2s all ;
 }
 main .sticky-link{
 height: 60px;

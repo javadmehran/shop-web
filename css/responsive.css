@@ -134,4 +134,65 @@ display: grid;
    
   bottom: 60px;
 }
+.buttons{
+    visibility: hidden;
+}
     }
+
+
+
+
+
+
+
+
+    @media screen and (max-width:400px ) {
+        .buttons{
+            visibility: hidden;
+        }
+       
+        header   nav .nav-left .remove{
+               display: none;
+            }
+        header   nav .nav-center {
+        }
+        .slider .slides .item .pic{
+            width: 100vw;
+            height: 60vh;
+    
+        }
+        .slider .slides .item .pic-off{
+            width: 100vw;
+            height: 40vh;
+    
+        }
+      
+       .products-group{
+        width: 100%;
+      
+     align-items: center;
+     justify-content: center;
+        flex-direction:row;
+        flex-wrap: wrap;
+       }
+       .product-sec-new{
+        width: 100%;
+       }
+       main .sticky-link{
+        display: flex;
+        transition: all 1s;
+        position: fixed;
+        bottom: 0;
+       left: 0;
+       width: 100%;
+        align-items: center;
+        z-index: 100;
+       
+       
+    }
+    .icon-top .to-top.active{
+        z-index: 100; 
+
+      bottom: 60px;
+    }
+        }
